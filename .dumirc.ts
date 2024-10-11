@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-11 16:47:50
+ * :date last edited: 2024-10-11 21:50:11
  */
 import { defineConfig } from 'dumi';
 
@@ -20,8 +20,7 @@ const WebpackAliyunOssPlugin = require('webpack-aliyun-oss-plugin');
 const baseURL = 'https://cdn.xiaozhi.shop';
 
 // 静态文件路径前缀
-const VER_PATH =
-  REACT_APP_ENV === 'prod' ? `${baseURL}/${PKG.name}/` : `/`; // 获取编译环境配置
+const VER_PATH = REACT_APP_ENV === 'prod' ? `${baseURL}/${PKG.name}/` : `/`; // 获取编译环境配置
 
 const publicPath = isProduction ? VER_PATH : '/';
 
@@ -49,9 +48,23 @@ export default defineConfig({
       },
     ],
   },
-  favicons:[`${baseURL}/digitwin/assets/logo.svg`],
+  favicons: [`${baseURL}/digitwin/assets/logo.svg`],
   publicPath: publicPath,
   outputPath: `${PKG.name}`,
+  headScripts: [
+    isProduction
+      ? `
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9b067f386fa1ab101b8b1b4d188ce3cb";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+
+    `
+      : '',
+  ],
   chainWebpack(memo: any) {
     if (REACT_APP_ENV === 'prod') {
       memo.plugin('WebpackAliyunOssPlugin').use(WebpackAliyunOssPlugin, [
