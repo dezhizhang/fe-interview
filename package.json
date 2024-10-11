@@ -29,6 +29,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "babel-plugin-antd-style": "^1.0.4",
     "webpack-aliyun-oss-plugin": "^2.1.0"
   },
   "dependencies": {
