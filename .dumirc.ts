@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-11 11:49:29
+ * :date last edited: 2024-10-11 14:32:17
  */
 import { defineConfig } from 'dumi';
 
@@ -17,10 +17,11 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const PKG = require(path.resolve(process.cwd(), 'package.json'));
 const WebpackAliyunOssPlugin = require('webpack-aliyun-oss-plugin');
+const baseURL = 'https://cdn.xiaozhi.shop';
 
 // 静态文件路径前缀
 const VER_PATH =
-  REACT_APP_ENV === 'prod' ? `https://cdn.xiaozhi.shop/${PKG.name}/` : `/`; // 获取编译环境配置
+  REACT_APP_ENV === 'prod' ? `${baseURL}/${PKG.name}/` : `/`; // 获取编译环境配置
 
 const publicPath = isProduction ? VER_PATH : '/';
 
@@ -30,7 +31,7 @@ export default defineConfig({
     name: 'fe-interview',
     antd: {},
     base: '/',
-    logo: false,
+    logo: `${baseURL}/digitwin/assets/logo.svg`,
     history: { type: 'hash' },
     footer: false,
     nav: [
