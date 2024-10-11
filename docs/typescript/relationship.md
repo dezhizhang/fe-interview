@@ -1,4 +1,4 @@
-# 说说你对 TypeScript 的了解，它和 JS 有什么关系？
+# 说说你对 TS 的了解，它和 JS 有什么关系？
 
 ### typescript 的核心特点
 

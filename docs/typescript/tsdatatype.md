@@ -1,4 +1,4 @@
-# TypeScript 有哪些内置数据类型？
+# TS 有哪些内置数据类型？
 
 - TypeScript 提供了与 JavaScript 相同的基础数据类型，并在此基础上扩展了一些类型检查功能。以下是 TypeScript 的主要内置数据类型：
 

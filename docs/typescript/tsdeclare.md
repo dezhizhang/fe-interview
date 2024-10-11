@@ -1,4 +1,4 @@
-# TypeScript 中的 Declare 关键字有什么作用？
+# TS 中的 Declare 关键字有什么作用？
 
 - declare 关键字用于声明已经存在但当前 TypeScript 文件中不可见的变量、函数、类、模块等。这通常用于告诉 TypeScript 编译器某些内容是在其它地方定义的，避免编译时报错。
   declare 关键字本身不会生成任何 JavaScript 代码，它仅用于类型检查，表示你已经知道该对像的存在，但它的定义不在当前文件中。

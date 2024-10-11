@@ -1,4 +1,4 @@
-# TypeScript 中 never 与 void 有什么区别？
+# TS 中 never 与 void 有什么区别？
 
 - never 和 void 都是 TypeScript 中的特殊类型，它们在函数的返回类型定义中经常使用，但它们有着不同的含义和使用场景。
 
