@@ -5,12 +5,12 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-11 11:32:13
+ * :date last edited: 2024-10-11 11:49:29
  */
 import { defineConfig } from 'dumi';
 
 import path from 'path';
-import OSS_CONFIG from './config';
+import OSS_CONFIG from './config/oss';
 const { REACT_APP_ENV } = process.env;
 const isProduction = process.env.NODE_ENV === 'production';
 //获取package.json中的version变量,需要根据项目目录结构确认
