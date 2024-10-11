@@ -1,5 +1,5 @@
 {
-  "name": "fe",
+  "name": "fe-interview",
   "version": "0.0.1",
   "description": "A static site based on dumi",
   "scripts": {
@@ -28,6 +28,7 @@
     "dumi-theme-antd-style": "^0.31.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+     "webpack-aliyun-oss-plugin": "^2.1.0"
   }
 }
