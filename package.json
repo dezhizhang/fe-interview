@@ -1,7 +1,7 @@
 {
   "name": "fe-interview",
   "version": "0.0.1",
-  "description": "A static site based on dumi",
+  "description": "数擎科技前端面试题",
   "scripts": {
     "start": "npm run dev",
     "dev": "dumi dev",
