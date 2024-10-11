@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-11 14:32:17
+ * :date last edited: 2024-10-11 16:47:50
  */
 import { defineConfig } from 'dumi';
 
@@ -49,6 +49,7 @@ export default defineConfig({
       },
     ],
   },
+  favicons:[`${baseURL}/digitwin/assets/logo.svg`],
   publicPath: publicPath,
   outputPath: `${PKG.name}`,
   chainWebpack(memo: any) {
