@@ -140,4 +140,5 @@ module.exports = {
 5. 报错：如果以上规则都未能匹配路径，Webpack 将抛出错误，提示找不到模块。
 
 ### 总结
+
 - Webpack 解析代码路径的方式是通过模块化机制，从入口文件开始递归解析所有依赖，通过 resolve 配置自定义模块解析的路径和行为。关键配置包括 extensions（自动补全扩展名）、alias（路径别名）、modules（模块查找目录）、mainFields（package.json 中的字段优先级）等。通过这些配置，Webpack 可以灵活、高效地解析项目中的模块路径。
