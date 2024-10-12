@@ -281,6 +281,7 @@ module.exports = {
 8. ##### HotModuleReplacementPlugin
 
 - 用途：实现模块热替换，允许在运行时替换、添加或删除模块，而无需重新刷新整个页面。
+
 ```js
 const webpack = require('webpack');
 
@@ -288,9 +289,6 @@ module.exports = {
   devServer: {
     hot: true, // 启用 HMR
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  plugins: [new webpack.HotModuleReplacementPlugin()],
 };
-
 ```
