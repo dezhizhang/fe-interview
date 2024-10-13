@@ -1,4 +1,4 @@
-# react 工作原理是什么
+# React 工作原理是什么
 
 - React 的工作原理基于以下几个关键概念：虚拟 DOM（Virtual DOM）、组件化、单向数据流 和 调和（Reconciliation）。这些概念共同作用，使得 React 可以高效地更新用户界面
 
