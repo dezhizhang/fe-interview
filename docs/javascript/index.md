@@ -2,7 +2,7 @@
 
 # 前端面试
 
-| 项目     | 地址                                                    |
+<!-- | 项目     | 地址                                                    |
 | :------- | :------------------------------------------------------ |
 | 晓智科技 | [晓智科技](https://xiaozhi.shop)                        |
 | 晓智文档 | [晓智文档](https://doc.xiaozhi.shop/frontend/interview) |
@@ -12,12 +12,12 @@
 [全网首发【2024七月最新版前端面试题】一周刷完前端面试八股文100题](https://www.bilibili.com/video/BV121sTeQEDJ/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8)
 [2024最新前端面试突击，3天看完轻松拿捏前端面试官](https://www.bilibili.com/video/BV1Dt42147h4/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8)
 <!-- [微前端面试完结](https://www.bilibili.com/video/BV1H34y117fe/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8) -->
-[一线大厂面试](https://www.bilibili.com/video/BV1Mf4y1r7xX?p=1&vd_source=10257e657caa8b54111087a9329462e8)
+<!-- [一线大厂面试](https://www.bilibili.com/video/BV1Mf4y1r7xX?p=1&vd_source=10257e657caa8b54111087a9329462e8)
 [尚硅谷JavaScript高级教程(javascript实战进阶)完结](https://www.bilibili.com/video/BV14s411E7qf/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8)
-[Web前端高频面试题100题精讲（11月22日更新）](https://www.bilibili.com/video/BV18j411M74W/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8)
+[Web前端高频面试题100题精讲（11月22日更新）](https://www.bilibili.com/video/BV18j411M74W/?spm_id_from=333.337.search-card.all.click&vd_source=10257e657caa8b54111087a9329462e8) -->
 
-[线性代数](https://www.bilibili.com/video/BV1aW411Q7x1/?p=3&spm_id_from=pageDriver&vd_source=10257e657caa8b54111087a9329462e8)
-[收费面庞大题]（https://www.bilibili.com/cheese/play/ep178093?query_from=0&search_id=986261495675504298&search_query=%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95&csource=common_hpsearch_null_null&spm_id_from=333.337.search-card.all.click）
+<!-- [线性代数](https://www.bilibili.com/video/BV1aW411Q7x1/?p=3&spm_id_from=pageDriver&vd_source=10257e657caa8b54111087a9329462e8)
+[收费面庞大题]（https://www.bilibili.com/cheese/play/ep178093?query_from=0&search_id=986261495675504298&search_query=%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95&csource=common_hpsearch_null_null&spm_id_from=333.337.search-card.all.click）  -->
 
 ### Promise
 

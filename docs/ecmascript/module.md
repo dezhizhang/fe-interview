@@ -1,4 +1,4 @@
-# es6 的 module 体系
+# ES6 的 module 体系
 
 - ES6(ESCAScript2015)引入了官方的模块系统，称为 ES6 Modules,它是 javascript 中原生模块的解决方案，相比于之前的模块化规范（CommonJS 和 AMD），ES6 的模块系统具有更强的静态性和灵活性。
 
