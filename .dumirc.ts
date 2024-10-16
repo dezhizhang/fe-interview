@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-13 19:04:43
+ * :date last edited: 2024-10-16 10:00:46
  */
 import { defineConfig } from 'dumi';
 
@@ -35,9 +35,14 @@ export default defineConfig({
     footer: false,
     nav: [
       {
+        title: 'HTML',
+        link: '/html',
+      },
+      {
         title: 'ECMAScript',
         link: '/ecmascript',
       },
+      
       {
         title: 'TypeScript',
         link: '/typescript',
