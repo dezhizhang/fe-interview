@@ -1,4 +1,4 @@
-### `<meta name="viewport">` 的作用
+# `<meta name="viewport">` 的作用
 
 `<meta name="viewport">` 标签用于控制浏览器的视口（viewport）设置，主要用于响应式网页设计。它在移动设备上特别重要，帮助开发者控制页面的缩放、布局和显示。
 
