@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-16 11:20:48
+ * :date last edited: 2024-10-20 19:02:12
  */
 import { defineConfig } from 'dumi';
 
@@ -62,7 +62,11 @@ export default defineConfig({
       },
       {
         title: 'HTTP',
-        link: 'http',
+        link: '/http',
+      },
+      {
+        title:'Node',
+        link:'/node'
       },
       {
         title: 'Webgl',
