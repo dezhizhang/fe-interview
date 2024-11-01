@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-10-20 19:02:12
+ * :date last edited: 2024-11-01 11:22:32
  */
 import { defineConfig } from 'dumi';
 
@@ -17,7 +17,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const PKG = require(path.resolve(process.cwd(), 'package.json'));
 const WebpackAliyunOssPlugin = require('webpack-aliyun-oss-plugin');
-const baseURL = 'https://cdn.xiaozhi.shop';
+const baseURL = 'https://cdn.shuqin.cc';
 
 // 静态文件路径前缀
 const VER_PATH = REACT_APP_ENV === 'prod' ? `${baseURL}/${PKG.name}/` : `/`; // 获取编译环境配置
