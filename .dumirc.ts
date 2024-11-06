@@ -5,7 +5,7 @@
  * :copyright: (c) 2024, Xiaozhi
  * :date created: 2024-10-10 20:20:45
  * :last editor: 张德志
- * :date last edited: 2024-11-01 11:22:32
+ * :date last edited: 2024-11-06 20:47:21
  */
 import { defineConfig } from 'dumi';
 
@@ -72,6 +72,10 @@ export default defineConfig({
         title: 'Webgl',
         link: '/webgl',
       },
+      {
+        title:'Three',
+        link:'/three'
+      }
     ],
   },
   favicons: [`${baseURL}/digitwin/assets/logo.svg`],
