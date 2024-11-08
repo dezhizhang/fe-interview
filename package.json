@@ -1,6 +1,6 @@
 {
   "name": "fe-interview",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "数擎科技前端面试题",
   "scripts": {
     "start": "npm run dev",
