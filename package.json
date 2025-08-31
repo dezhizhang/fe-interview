@@ -24,12 +24,12 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "dumi": "^2.3.0",
+    "babel-plugin-antd-style": "^1.0.4",
+    "dumi": "^2.4.21",
     "dumi-theme-antd-style": "^0.31.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "babel-plugin-antd-style": "^1.0.4",
     "webpack-aliyun-oss-plugin": "^2.1.0"
   },
   "dependencies": {
